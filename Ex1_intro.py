@@ -69,7 +69,7 @@ num1 = 10
 num2 = 5
 total = num1 + num2
 
-print(total)
+print(f"The total is {total}!")
 
 # -------------------------------------------
 # Task 3: User Input and IF Statements
@@ -132,6 +132,9 @@ print("\n-------------------------------------------\n"
 # next_year = age + 1
 
 # Write your code below:
+number = int(input("Input a number."))
+squarenumber = number**2
+print(squarenumber)
 
 
 # Extension 2: Score Tracker
@@ -150,6 +153,15 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+score = 0
+quizanswer = int(input("Answer the question: 5+5=?"))
+if quizanswer == 10:
+    print("Correct! Your score is now 10!")
+    score = score + 10
+else:
+    print("Wrong!")
+
+
 
 # Extension 3: The Length Checker
 # -------------------------------------------
@@ -167,6 +179,12 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+oneword = (input("Type one word."))
+wordlength = len(oneword)
+if wordlength > 5:
+    print("That's a long word!")
+else:
+    print("That's a short word!")
 
 # -------------------------------------------
 # SAVE YOUR EXTENSIONS
