@@ -36,6 +36,14 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
+print("Welcome to Python!")
+user_name = "alice"
+print("Hello, " + user_name + "!")
+print(f"Hello, {user_name}!")
+
+
+
+
 
 # -------------------------------------------
 # Task 2: Basic Arithmetic (The Calculator)
@@ -57,6 +65,11 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+num1 = 10
+num2 = 5
+total = num1 + num2
+
+print(total)
 
 # -------------------------------------------
 # Task 3: User Input and IF Statements
@@ -79,6 +92,12 @@ print("\n-------------------------------------------\n"
 #     print("Cool choice.")
 
 # Write your code below:
+
+password = input("What is the password?")
+if password == "Python123":
+    print("Access Granted")
+else:
+    print("Access Denied")
 
 
 # -------------------------------------------
