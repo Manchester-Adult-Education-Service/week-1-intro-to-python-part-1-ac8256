@@ -221,6 +221,16 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+chat_name = input("What is your name?")
+print(f"Hello, {chat_name}!")
+chat_feeling = input("How are you feeling today?")
+if chat_feeling == "happy":
+    print("That's great to hear!")
+elif chat_feeling == "sad":
+    print("I'm sorry, I hope your day gets better.")
+else:
+    print("I see, thanks for sharing!")
+
 
 # -------------------------------------------
 # FINAL SUBMISSION
