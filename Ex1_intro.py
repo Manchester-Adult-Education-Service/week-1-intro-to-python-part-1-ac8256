@@ -36,6 +36,14 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
+print("Welcome to Python!")
+user_name = "alice"
+print("Hello, " + user_name + "!")
+print(f"Hello, {user_name}!")
+
+
+
+
 
 # -------------------------------------------
 # Task 2: Basic Arithmetic (The Calculator)
@@ -57,6 +65,11 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+num1 = 10
+num2 = 5
+total = num1 + num2
+
+print(f"The total is {total}!")
 
 # -------------------------------------------
 # Task 3: User Input and IF Statements
@@ -79,6 +92,12 @@ print("\n-------------------------------------------\n"
 #     print("Cool choice.")
 
 # Write your code below:
+
+password = input("What is the password?")
+if password == "Python123":
+    print("Access Granted")
+else:
+    print("Access Denied")
 
 
 # -------------------------------------------
@@ -113,6 +132,9 @@ print("\n-------------------------------------------\n"
 # next_year = age + 1
 
 # Write your code below:
+number = int(input("Input a number."))
+squarenumber = number**2
+print(squarenumber)
 
 
 # Extension 2: Score Tracker
@@ -131,6 +153,15 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+score = 0
+quizanswer = int(input("Answer the question: 5+5=?"))
+if quizanswer == 10:
+    print("Correct! Your score is now 10!")
+    score = score + 10
+else:
+    print("Wrong!")
+
+
 
 # Extension 3: The Length Checker
 # -------------------------------------------
@@ -148,6 +179,12 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+oneword = (input("Type one word."))
+wordlength = len(oneword)
+if wordlength > 5:
+    print("That's a long word!")
+else:
+    print("That's a short word!")
 
 # -------------------------------------------
 # SAVE YOUR EXTENSIONS
@@ -183,6 +220,16 @@ print("\n-------------------------------------------\n"
 #     print("What animal is that?")
 
 # Write your code below:
+
+chat_name = input("What is your name?")
+print(f"Hello, {chat_name}!")
+chat_feeling = input("How are you feeling today?")
+if chat_feeling == "happy":
+    print("That's great to hear!")
+elif chat_feeling == "sad":
+    print("I'm sorry, I hope your day gets better.")
+else:
+    print("I see, thanks for sharing!")
 
 
 # -------------------------------------------
